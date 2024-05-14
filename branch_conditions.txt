@@ -1,0 +1,2 @@
+Branch Condition: call, Target: __main
+Branch Condition: call, Target: printf

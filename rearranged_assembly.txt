@@ -1,0 +1,10 @@
+.def	__main;	.scl	2;	.type	32;	.endef
+.seh_stackalloc	32
+.seh_endprologue
+call	__main
+
+call	printf
+.seh_stackalloc	32
+.seh_endprologue
+call	__main
+

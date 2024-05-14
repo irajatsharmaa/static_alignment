@@ -1,0 +1,40 @@
+.file
+  "test.c"
+.def
+  __main
+.section
+.rdata
+  "dr"
+.LC0
+.ascii
+  "hello\0"
+.text
+.globl
+  main
+.def
+  main
+.seh_proc
+  main
+  main
+  pushq
+.seh_pushreg
+  movq
+.seh_setframe
+  subq
+.seh_stackalloc
+.seh_endprologue
+  call
+  __main
+  leaq
+.LC0
+  call
+  printf
+  movl
+  addq
+  popq
+  ret
+.seh_endproc
+.ident
+  "GCC: (Rev2, Built by MSYS2 project) 6.2.0"
+.def
+  printf
